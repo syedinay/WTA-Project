@@ -1,0 +1,60 @@
+.topbar{
+    background-color: rgb(27, 172, 172);
+    height: 80px;
+    width: auto;
+    overflow: hidden;
+    border-radius: 0px 0px 12px 12px;
+    
+   
+}
+.topbar p{
+    position: absolute;
+    left: 10px;
+    right: 0;
+    margin-top: 9px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-align: left;
+   
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%; 
+    overflow: hidden;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px; 
+    overflow: hidden;
+}
+  
+  
